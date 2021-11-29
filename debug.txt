@@ -1,0 +1,62 @@
+## Debug main.py
+
+/home/mauro/PycharmProjects/app/venv/bin/python /snap/pycharm-community/256/plugins/python-ce/helpers/pydev/pydevd.py --multiproc --qt-support=auto --client 127.0.0.1 --port 37821 --file /home/mauro/PycharmProjects/app/main.py
+Connected to pydev debugger (build 212.5457.59)
+[nonce] 9815
+[nonce] 23619
+[nonce] 66707
+[nonce] 15707
+['0000fd53c5c063f47457504cdf1c386d3beb36ebde8ef36c920e5fb48a40ab21', '00000423bbe0eef36066cebdfa1635800242ef452aa3560c9112810a0124e862', '00007143453fabe04fa1d4e316d7ba573382980138c729736f69622185405aab', '0000cf6f8e21df4f4659da3074d5bd99d81ba25d85353cb75081d3815d948432']
+
+Process finished with exit code 0
+
+## Debug manage.py
+
+/home/mauro/PycharmProjects/app/venv/bin/python /snap/pycharm-community/256/plugins/python-ce/helpers/pydev/pydevd.py --multiproc --qt-support=auto --client 127.0.0.1 --port 37067 --file /home/mauro/PycharmProjects/app/blockchain/manage.py
+Connected to pydev debugger (build 212.5457.59)
+
+Type 'manage.py help <subcommand>' for help on a specific subcommand.
+
+Available subcommands:
+
+[auth]
+    changepassword
+    createsuperuser
+
+[contenttypes]
+    remove_stale_contenttypes
+
+[django]
+    check
+    compilemessages
+    createcachetable
+    dbshell
+    diffsettings
+    dumpdata
+    flush
+    inspectdb
+    loaddata
+    makemessages
+    makemigrations
+    migrate
+    sendtestemail
+    shell
+    showmigrations
+    sqlflush
+    sqlmigrate
+    sqlsequencereset
+    squashmigrations
+    startapp
+    startproject
+    test
+    testserver
+
+[sessions]
+    clearsessions
+
+[staticfiles]
+    collectstatic
+    findstatic
+    runserver
+
+Process finished with exit code 0
